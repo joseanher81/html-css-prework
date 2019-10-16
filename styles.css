@@ -1,0 +1,249 @@
+body {
+  font-family: 'Manjari', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Exo', sans-serif;
+  font-size: 2em;
+}
+
+
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 50px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header{
+  background-color: rgb(32, 101, 136);
+  background-image: url("images/city-scape.svg");
+  background-repeat: no-repeat;
+  color: white;
+  padding: 30px 30px 90px 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header p {
+  font-size: 1em;
+  width: 80%;
+}
+
+.top-header #logo {
+  margin-right: 20px;
+}
+
+.top-header #search {
+  width: 72%;
+}
+
+.top-header #access {
+  width: 10%;
+}
+
+.top-header #access div{
+  width: 60%;
+  font-size: 0.8em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.top-header #search input{
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(70, 97, 112);
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 92%;
+}
+
+.top-header #search button {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(70, 97, 112);
+  color:rgba(255,255,255,0.8);
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 5%;
+}
+
+.top-header #access{
+  font-size: 1.2em;
+  width: 15%;
+}
+
+.top-header #access a{
+  
+}
+
+.top-header #access img{
+  padding-left: 10px;
+}
+
+.bottom-header {
+  margin: 0 15%;
+  width: 40%;
+}
+
+.bottom-header p {
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+
+.bottom-header a {
+  background-color: rgb(240, 146, 51);
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.centered {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section#collaboration {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  padding: 40px;
+}
+
+section#collaboration #collaboration-image{
+  width: 50%;
+  float:left;
+  
+}
+
+section#collaboration #collaboration-text{
+  width: 45%;
+  float:left;
+  margin-left: 5%;
+}
+
+section#collaboration ul {
+  padding-left: 35px;
+}
+
+section#collaboration ul li {
+  list-style-type: disc;
+  padding-bottom: 15px;
+  
+}
+
+section#collaboration ul li span {
+  margin-right: 10px;
+}
+
+section#collaboration a {
+  text-decoration: none;
+  color: white;
+}
+
+section#collaboration #signOrgs{
+  background-color: rgb(203, 56, 55);
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+section#collaboration #signOrgs + p {
+  padding-top: 15px;
+}
+
+section#whatIs{
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+section#whatIs > div {
+  width: 30%;
+  margin-left: 20%;
+}
+
+section#whatIs a {
+  text-decoration: none;
+  color: white;
+}
+
+section#whatIs p {
+  padding-bottom: 25px;
+  line-height: 1.5em;
+}
+
+section#whatIs #install {
+  background-color: rgb(49, 68, 88);
+  border-radius: 25px;
+  padding: 10px 35px;
+}
+
+section#make {
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+section#make .action {
+  float:left;
+  width: 30%;
+  margin: 10px 0 20px 10px;
+}
+
+section#make .action p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section#make h2, section#make h3 {
+  color: rgb(83, 88, 98);
+}
+
+section#make p {
+  color: rgb(135, 145, 156);
+  line-height: 1.5em;
+}
+
+section#make a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
